@@ -1,0 +1,134 @@
+/* Body*/
+.body {
+    background-image: url("../static/fondo_escritorio.webp");
+    background-size: cover;
+}
+
+/* Titulos*/
+.titulo {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    padding-top: 0.3px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    height: 70px;
+    background-color: black;
+    font-family: "Bell MT";
+    text-align: left;
+    color: white;
+}
+
+.contenido_principal {
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 325px;
+}
+.contenido_principal1 {
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 150px;
+}
+.contenido_principal_index {
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 30px;
+    padding: 20px;
+    margin-bottom: 28%;
+}
+.enlaces_inicio {
+    text-decoration: none;
+    color: black;
+}
+.principal_index {
+    margin: 20px;
+}
+.enlaces_inicio:hover {
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+/*Enlaces*/
+
+.enlace {
+    margin-top: 20px;
+    font-size: large;
+}
+
+.enlace_index {
+    font-size: xx-large;
+    margin: 5px;
+    text-decoration: none;
+}
+.enlace_index_titulo {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.enlace_index:hover {
+    margin-right: 1375px;
+}
+.enlace_index_titulo:hover {
+    color: white;
+    background-color: black;
+}
+
+.enlace2 {
+    padding-top: 23px;
+}
+
+.enlace_titulo {
+    text-decoration: none;
+    font-family: "Bell MT";
+    font-size: large;
+    color: white;
+}
+
+.enlace_titulo:hover {
+    color: black;
+    background-color: white;
+    padding: 2px;
+}
+
+
+.enlace_formulario:hover {
+    background-color: black;
+    padding: 20px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+
+
+/*Botones*/
+.boton:hover {
+    background-color: saddlebrown;
+    color: white;
+}
+
+/*Sobre nosotros*/
+.parrafos_columnas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px;
+    margin-bottom: 50px;
+
+}
+.parrafos {
+    text-align: center;
+    margin: 30px;
+
+}
+
+/*Contacto*/
+.icons {
+    text-align: center;
+}
+.icon_padding {
+    padding: 20px;
+}
+/* Footer*/
+.footer {
+    color: grey;
+}
